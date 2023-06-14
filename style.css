@@ -1,0 +1,56 @@
+body {
+  background-color: gainsboro;
+}
+.section-01 {
+  padding: 100px 0;
+}
+@media screen and (max-width: 600px) {
+    .page{
+        display: flex;
+    }
+}
+
+.section-01 .c-wrapper-02 {
+    background-color: white;
+  display: block;
+  margin-top: 50px;
+  width: 375px;
+  height: auto 0;
+  position: relative;
+  margin: auto;
+  
+}
+
+.page {
+    width: 375px;
+  margin: auto 0;
+  display: inline;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16 0 16;
+    margin-top: 100px;
+}
+.header svg{
+    margin-top: 18px;
+}
+.page .c-item-02{
+    display: block;
+    margin-left: 16px;
+    width: 100%;
+    height: auto 0;
+}
+.c-item-01{
+    padding: 16px;
+}
+.c-item-04{
+    display: flex;
+    justify-content: space-around;
+    height: auto 0;
+    flex-wrap: wrap;
+}
+.c-item-04 img{
+    object-fit: cover;
+}
